@@ -96,9 +96,34 @@ t.forward(25)
 t.penup()
 t.left(180)
 t.forward(55)
-t.left(80)
+t.left(110)
+
+# collar
+
+t.forward(70)
+t.right(90)
+t.forward(30)
+t.right(170)
+t.pendown()
+t.forward(90)
+t.right(90)
+t.forward(20)
+t.right(90)
+t.forward(90)
+t.right(90)
+t.forward(20)
 
 # body
+
+t.right(180)
+t.penup()
+t.forward(20)
+t.pendown()
+t.forward(10)
+t.right(90)
+for i in range(0, 90):
+    t.left(0.5)
+    t.forward(1)
 
 
     
