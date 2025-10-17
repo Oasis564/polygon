@@ -113,7 +113,7 @@ t.forward(90)
 t.right(90)
 t.forward(20)
 
-# body
+# left arm
 
 t.right(180)
 t.penup()
@@ -124,9 +124,98 @@ t.right(90)
 for i in range(0, 90):
     t.left(0.5)
     t.forward(1)
+t.circle(15)
+t.penup()
+t.left(90)
+t.forward(30)
+t.left(75)
+t.pendown()
+for i in range(0, 65):
+    t.right(0.5)
+    t.forward(1)
+t.right(90)
 
+# body
 
-    
+t.forward(110)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(115)
+t.right(90)
+
+# right arm
+
+for i in range(0, 65):
+    t.right(0.5)
+    t.forward(1)
+t.circle(15)
+t.penup()
+t.left(90)
+t.forward(30)
+t.left(75)
+t.pendown()
+for i in range(0, 90):
+    t.left(0.5)
+    t.forward(1)
+t.right(90)
+t.left(90)
+t.forward(10)
+t.right(90)
+t.forward(10)
+
+# legs
+t.penup()
+t.right(180)
+t.forward(170)
+t.left(90)
+t.forward(20)
+t.right(90)
+
+t.pendown()
+t.forward(110)
+t.right(90)
+t.forward(50)
+t.right(90)
+t.forward(110)
+t.penup()
+t.right(180)
+t.forward(110)
+t.right(90)
+
+t.pendown()
+t.forward(50)
+t.right(90)
+t.forward(110)
+t.penup()
+t.right(90)
+t.forward(50)
+
+# belly
+
+t.left(90)
+t.forward(20)
+t.right(90)
+t.pendown()
+t.circle(35)
+
+# feet
+
+t.right(90)
+t.penup()
+t.forward(120)
+t.right(90)
+t.forward(25)
+t.pendown()
+t.circle(30)
+
+t.penup()
+t.left(180)
+t.forward(50)
+t.right(180)
+t.pendown()
+t.circle(30)
+
 
 
 input()
